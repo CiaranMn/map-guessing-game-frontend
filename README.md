@@ -5,6 +5,8 @@
 
 #### Javascript frontend, with a Ruby on Rails backend here: https://github.com/CiaranMn/map-guessing-game-backend
 
+<img src="https://github.com/CiaranMn/map-guessing-game-backend/blob/master/demo.gif" width="60%" height="auto" alt="short clip of gameplay" />
+
 ## How the game works
 - A game starts once a player has entered a name and either selects a difficulty, or hits enter (which begins an easy game)
 - A static map centered around a random London postcode is displayed to the user, initially obscured by 9 squares
