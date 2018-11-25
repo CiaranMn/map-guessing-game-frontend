@@ -21,6 +21,8 @@
 - On **hard** difficulty the labels are removed. A smaller area is provided at a higher zoom (google 17). Score starts at 2,000 with 200 points deducted for an incorrect guess.
 
 ## Frontend Structure
+Game is written in plain JavaScript, but is a candidate for refactoring into React as a lot of code hides, displays, and updates elements.
+
 **index.js** in the root directory is a basic Express server to serve the /public directory (for deployment on Heroku at the link above).
 
 **public/src/index.js** handles user input to start the game, and hiding and showing elements depending on whether or not a game is in progress.
